@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="RumahKuVR is an AI-assisted virtual reality home safety application for personalised hazard detection and training among senior citizens.">
+  <title>RumahKuVR | VR Home Safety Training for Seniors</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="RumahKuVR home">
+        <span class="brand-mark" aria-hidden="true">R</span>
+        <span class="brand-text">
+          <strong>RumahKuVR</strong>
+          <small>Home Safety in Virtual Reality</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="site-nav" aria-label="Primary navigation">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#how-it-works">How It Works</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#ai-guidance">AI Guidance</a>
+        <a href="#experience">Play / Experience</a>
+        <a href="#team">Team</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero section-pad" id="home">
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Final Year Project • Virtual Reality Home Safety Training</p>
+          <h1>RumahKuVR</h1>
+          <p class="hero-subtitle">AI-Assisted Virtual Reality Home Safety Training for Senior Citizens</p>
+          <p class="hero-description">
+            An interactive home-safety application that allows senior citizens to identify household hazards,
+            perform corrective safety actions, and receive personalised guidance in a safe virtual Malaysian home environment.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#about">Explore RumahKuVR</a>
+            <!-- Replace #gameplay-video with your final YouTube/local gameplay video link if preferred. -->
+            <a class="btn btn-secondary" href="#gameplay-video">Watch Gameplay</a>
+          </div>
+
+          <div class="badge-row" aria-label="Project highlights">
+            <span>Virtual Reality</span>
+            <span>Controller Mode</span>
+            <span>Bahasa Melayu</span>
+            <span>AI-Assisted Guidance</span>
+            <span>Senior-Friendly</span>
+          </div>
+        </div>
+
+        <div class="hero-media reveal">
+          <div class="media-frame hero-image-frame corner-card">
+            <!-- Replace images/hero.jpg with a real RumahKuVR gameplay or project screenshot. -->
+            <img src="images/hero.jpg" alt="RumahKuVR virtual Malaysian home gameplay preview" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="image-placeholder" hidden>
+              <svg class="blueprint" viewBox="0 0 220 170" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <rect x="8" y="8" width="204" height="154" stroke-width="1.5"/>
+                <line x1="8" y1="90" x2="110" y2="90" stroke-width="1"/>
+                <line x1="110" y1="8" x2="110" y2="162" stroke-width="1"/>
+                <line x1="150" y1="90" x2="150" y2="162" stroke-width="1"/>
+                <path d="M40 90 A20 20 0 0 1 40 8" stroke-width="1" stroke-dasharray="2 3"/>
+                <path d="M150 130 A20 20 0 0 1 190 130" stroke-width="1" stroke-dasharray="2 3"/>
+                <circle cx="185" cy="35" r="4" stroke-width="1.2"/>
+                <circle cx="60" cy="125" r="4" stroke-width="1.2"/>
+              </svg>
+              <span>Project Visual</span>
+              <strong>Replace with images/hero.jpg</strong>
+              <small>Use a real RumahKuVR screenshot or video still.</small>
+            </div>
+            <div class="media-caption">
+              <span class="status-dot"></span>
+              Academic / Demonstration Build
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="about">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About the Project</p>
+          <h2>What is RumahKuVR?</h2>
+          <p>
+            RumahKuVR helps senior citizens practise identifying and resolving household hazards without facing real danger.
+            Users explore a virtual Malaysian home, interact with safety tools and household objects, complete corrective actions,
+            receive scores, and review their performance after each training session.
+          </p>
+        </div>
+
+        <div class="value-grid">
+          <article class="value-card reveal">
+            <div class="icon-box" aria-hidden="true">✓</div>
+            <h3>Safe Training</h3>
+            <p>Practise potentially risky household situations inside a controlled virtual environment.</p>
+          </article>
+          <article class="value-card reveal">
+            <div class="icon-box" aria-hidden="true">↻</div>
+            <h3>Interactive Learning</h3>
+            <p>Learn through hands-on corrective actions rather than passive reading or simple quiz questions.</p>
+          </article>
+          <article class="value-card reveal">
+            <div class="icon-box" aria-hidden="true">◎</div>
+            <h3>Personalised Guidance</h3>
+            <p>Receive recommendations based on safety performance, mistakes, hint usage, and previous sessions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-soft" id="audience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Designed Around Real Users</p>
+          <h2>Who is it for?</h2>
+        </div>
+
+        <div class="audience-grid">
+          <article class="audience-card reveal">
+            <p class="card-kicker">01</p>
+            <h3>Senior Citizens</h3>
+            <p>Practise household safety through accessible VR and controller-based interaction.</p>
+          </article>
+          <article class="audience-card reveal">
+            <p class="card-kicker">02</p>
+            <h3>Caregivers</h3>
+            <p>Monitor session records, performance, frequently missed hazards, and support guided training.</p>
+          </article>
+          <article class="audience-card reveal">
+            <p class="card-kicker">03</p>
+            <h3>Administrators</h3>
+            <p>Manage users, system records, settings, reports, and application data.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="features">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Core Features</p>
+          <h2>A complete home-safety training experience</h2>
+          <p>Built around accessibility, corrective action training, role-based monitoring, and practical senior-friendly guidance.</p>
+        </div>
+
+        <div class="feature-grid">
+          <article class="feature-item reveal"><span>VR</span><h3>VR Mode</h3><p>Immersive training for Meta Quest 3.</p></article>
+          <article class="feature-item reveal"><span>GP</span><h3>Controller Mode</h3><p>Accessible PC gameplay with a game controller.</p></article>
+          <article class="feature-item reveal"><span>BM</span><h3>Bahasa Melayu Voice Guidance</h3><p>Clear spoken guidance designed for local users.</p></article>
+          <article class="feature-item reveal"><span>3×</span><h3>Three Difficulty Levels</h3><p>Progressive guidance from Easy to Hard.</p></article>
+          <article class="feature-item reveal"><span>→</span><h3>Corrective Hazard Actions</h3><p>Resolve hazards through ordered physical actions.</p></article>
+          <article class="feature-item reveal"><span>★</span><h3>Safety Scoring</h3><p>Track decisions, penalties, completion, and performance.</p></article>
+          <article class="feature-item reveal"><span>SR</span><h3>Session Records</h3><p>Review previous training activity and results.</p></article>
+          <article class="feature-item reveal"><span>HM</span><h3>Hazard Map</h3><p>View hazard locations and training coverage.</p></article>
+          <article class="feature-item reveal"><span>CD</span><h3>Caregiver Dashboard</h3><p>Inspect selected-senior performance and records.</p></article>
+          <article class="feature-item reveal"><span>GT</span><h3>Guided Training Sessions</h3><p>Step-based guidance supports confident learning.</p></article>
+          <article class="feature-item reveal"><span>LD</span><h3>Local User Data</h3><p>Store user and gameplay records locally.</p></article>
+          <article class="feature-item reveal"><span>AI</span><h3>AI-Assisted Recommendations</h3><p>Rule-based recommendations adapt to user performance.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-deep" id="hazards">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <p class="eyebrow">Interactive Hazard Training</p>
+          <h2>Learning by taking the correct safety action</h2>
+          <p>Easy Level scenarios focus on recognising danger, selecting appropriate tools, following a safe sequence, and observing environmental feedback.</p>
+        </div>
+
+        <article class="hazard-story reveal">
+          <div class="hazard-media">
+            <!-- Replace with a real wet-floor gameplay screenshot or clip thumbnail. -->
+            <img src="images/gameplay-wetfloor.jpg" alt="Wet floor corrective action gameplay" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="image-placeholder dark-placeholder" hidden><strong>images/gameplay-wetfloor.jpg</strong></div>
+          </div>
+          <div class="hazard-copy">
+            <span class="hazard-number">Hazard 01</span>
+            <h3>Wet Floor</h3>
+            <p>The user identifies a slipping hazard and physically completes a safe corrective sequence.</p>
+            <div class="flow-list" aria-label="Wet floor action sequence">
+              <span>Detect wet floor</span><b>→</b><span>Wear safety slippers</span><b>→</b><span>Take mop</span><b>→</b><span>Clean the floor</span><b>→</b><span>Environment becomes safe</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="hazard-story reverse reveal">
+          <div class="hazard-media">
+            <!-- Replace with a real electrical hazard gameplay screenshot or clip thumbnail. -->
+            <img src="images/gameplay-electric.jpg" alt="Exposed electrical wire corrective action gameplay" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="image-placeholder dark-placeholder" hidden><strong>images/gameplay-electric.jpg</strong></div>
+          </div>
+          <div class="hazard-copy">
+            <span class="hazard-number">Hazard 02</span>
+            <h3>Exposed Electrical Wire</h3>
+            <p>The user learns to avoid direct contact and safely isolate the electrical danger before applying protection.</p>
+            <div class="flow-list" aria-label="Electrical hazard action sequence">
+              <span>Detect electrical hazard</span><b>→</b><span>Take wooden stick</span><b>→</b><span>Operate switch from a distance</span><b>→</b><span>Install safety cover</span><b>→</b><span>Danger removed</span>
+            </div>
+          </div>
+        </article>
+
+        <article class="hazard-story reveal">
+          <div class="hazard-media">
+            <!-- Replace with a real LPG gas gameplay screenshot or clip thumbnail. -->
+            <img src="images/gameplay-gas.jpg" alt="LPG gas leak corrective action gameplay" onerror="this.style.display='none'; this.nextElementSibling.hidden=false;">
+            <div class="image-placeholder dark-placeholder" hidden><strong>images/gameplay-gas.jpg</strong></div>
+          </div>
+          <div class="hazard-copy">
+            <span class="hazard-number">Hazard 03</span>
+            <h3>LPG Gas Leakage</h3>
+            <p>The user responds to a gas leak by shutting down gas sources and improving ventilation in the correct order.</p>
+            <div class="flow-list" aria-label="LPG gas leak action sequence">
+              <span>Detect gas leak</span><b>→</b><span>Turn stove knobs off</span><b>→</b><span>Close LPG regulator</span><b>→</b><span>Open window</span><b>→</b><span>Environment becomes safe</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section-pad" id="how-it-works">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">How It Works</p>
+          <h2>From entry to personalised review</h2>
+        </div>
+
+        <ol class="process-grid">
+          <li class="reveal"><span>1</span><strong>Select Play Mode</strong><small>Choose VR or Controller Mode.</small></li>
+          <li class="reveal"><span>2</span><strong>Choose Difficulty</strong><small>Select the available training level.</small></li>
+          <li class="reveal"><span>3</span><strong>Enter the Virtual Home</strong><small>Begin inside the Malaysian home environment.</small></li>
+          <li class="reveal"><span>4</span><strong>Follow Floor Guidance</strong><small>Easy Mode uses sequential floor indicators.</small></li>
+          <li class="reveal"><span>5</span><strong>Detect a Hazard</strong><small>Inspect the environment and identify danger.</small></li>
+          <li class="reveal"><span>6</span><strong>Perform Corrective Actions</strong><small>Use the correct tools and safe action sequence.</small></li>
+          <li class="reveal"><span>7</span><strong>Receive Safety Feedback</strong><small>See guidance, penalties, and completion feedback.</small></li>
+          <li class="reveal"><span>8</span><strong>Review Results</strong><small>Inspect performance and personalised recommendations.</small></li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section-pad section-soft" id="difficulty">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Progressive Training</p>
+          <h2>Easy, Medium, and Hard</h2>
+          <p>Guidance is reduced gradually so users can progress from supported learning toward more independent decision-making.</p>
+        </div>
+
+        <div class="difficulty-grid">
+          <article class="difficulty-card active reveal">
+            <div class="difficulty-top"><span>Easy</span><strong>Developed</strong></div>
+            <h3>Full Guidance</h3>
+            <p>Floor indicators, Bahasa Melayu voice instructions, and clear interaction prompts support each training step.</p>
+          </article>
+          <article class="difficulty-card reveal">
+            <div class="difficulty-top"><span>Medium</span><strong class="dev-label">Under Development</strong></div>
+            <h3>Reduced Assistance</h3>
+            <p>Planned to introduce reduced guidance, delayed hints, and additional household hazards.</p>
+          </article>
+          <article class="difficulty-card reveal">
+            <div class="difficulty-top"><span>Hard</span><strong class="dev-label">Under Development</strong></div>
+            <h3>Independent Decisions</h3>
+            <p>Planned to use minimal assistance, more complex scenarios, and stronger emphasis on independent safety decisions.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="ai-guidance">
+      <div class="container ai-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">AI-Assisted Guidance</p>
+          <h2>Personalised Safety Guidance</h2>
+          <p>
+            RumahKuVR uses an AI-assisted rule-based expert system to analyse gameplay information such as safety scores,
+            missed hazards, incorrect action sequences, completion time, hint usage, penalties, and previous session performance.
+          </p>
+          <p>The predefined home-safety rules are used to identify areas that require improvement, recommend repeated hazard training, adjust guidance levels, suggest suitable difficulty levels, and provide personalised recommendations to senior citizens and caregivers.</p>
+          <div class="truth-note">
+            <strong>Technical scope:</strong> The current design is rule-based. It does not claim to use machine learning, generative AI, computer vision, or large language models.
+          </div>
+        </div>
+
+        <div class="ai-flow reveal" aria-label="AI-assisted guidance process">
+          <div><span>01</span><strong>Gameplay Data</strong><small>Score, mistakes, time, hints, penalties, history</small></div>
+          <i>↓</i>
+          <div><span>02</span><strong>Rule-Based Analysis</strong><small>Predefined home-safety rules evaluate performance</small></div>
+          <i>↓</i>
+          <div><span>03</span><strong>Weakness Detection</strong><small>Identify repeated errors and areas requiring support</small></div>
+          <i>↓</i>
+          <div class="ai-final"><span>04</span><strong>Personalised Recommendation</strong><small>Suggested retraining, guidance level, and difficulty</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-deep" id="gameplay">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <p class="eyebrow">Gameplay Gallery</p>
+          <h2>Inside the RumahKuVR experience</h2>
+          <p>Replace each placeholder path with your real screenshots. Clickable images open in a larger modal view.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Replace these image files with your actual screenshots. Keep the filenames or update src values. -->
+          <button class="gallery-card reveal" data-image="images/login-registration.jpg" data-title="Login and Registration"><img src="images/login-registration.jpg" alt="Login and registration screen"><span>Login and Registration</span></button>
+          <button class="gallery-card reveal" data-image="images/dashboard-senior.jpg" data-title="Senior Dashboard"><img src="images/dashboard-senior.jpg" alt="Senior dashboard"><span>Senior Dashboard</span></button>
+          <button class="gallery-card reveal" data-image="images/dashboard-caregiver.jpg" data-title="Caregiver Dashboard"><img src="images/dashboard-caregiver.jpg" alt="Caregiver dashboard"><span>Caregiver Dashboard</span></button>
+          <button class="gallery-card reveal" data-image="images/vr-gameplay.jpg" data-title="VR Gameplay"><img src="images/vr-gameplay.jpg" alt="VR gameplay"><span>VR Gameplay</span></button>
+          <button class="gallery-card reveal" data-image="images/gameplay-wetfloor.jpg" data-title="Wet-Floor Hazard"><img src="images/gameplay-wetfloor.jpg" alt="Wet-floor hazard"><span>Wet-Floor Hazard</span></button>
+          <button class="gallery-card reveal" data-image="images/gameplay-electric.jpg" data-title="Electrical Hazard"><img src="images/gameplay-electric.jpg" alt="Electrical hazard"><span>Electrical Hazard</span></button>
+          <button class="gallery-card reveal" data-image="images/gameplay-gas.jpg" data-title="LPG Gas Hazard"><img src="images/gameplay-gas.jpg" alt="LPG gas hazard"><span>LPG Gas Hazard</span></button>
+          <button class="gallery-card reveal" data-image="images/floor-guidance.jpg" data-title="Floor Guidance Indicators"><img src="images/floor-guidance.jpg" alt="Floor guidance indicators"><span>Floor Guidance Indicators</span></button>
+          <button class="gallery-card reveal" data-image="images/result-screen.jpg" data-title="Result Screen"><img src="images/result-screen.jpg" alt="Result screen"><span>Result Screen</span></button>
+          <button class="gallery-card reveal" data-image="images/session-record.jpg" data-title="Session Record"><img src="images/session-record.jpg" alt="Session record"><span>Session Record</span></button>
+          <button class="gallery-card reveal" data-image="images/performance-report.jpg" data-title="Performance Report"><img src="images/performance-report.jpg" alt="Performance report"><span>Performance Report</span></button>
+        </div>
+
+        <div class="video-section reveal" id="gameplay-video">
+          <div>
+            <p class="eyebrow">Video Demonstration</p>
+            <h3>RumahKuVR Gameplay Demonstration</h3>
+            <p>Use this area for a YouTube embed or a locally hosted MP4 when your final demonstration video is ready.</p>
+          </div>
+          <div class="video-placeholder">
+            <!-- Replace this placeholder with a YouTube iframe or <video> element. Example:
+            <iframe src="https://www.youtube.com/embed/YOUR_VIDEO_ID" title="RumahKuVR Gameplay Demonstration" allowfullscreen></iframe>
+            -->
+            <span aria-hidden="true">▶</span>
+            <strong>Gameplay video placeholder</strong>
+            <small>Replace with YouTube embed or local video.</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="experience">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Play / Experience</p>
+          <h2>Where Can You Experience RumahKuVR?</h2>
+          <p>The current project is intended for supervised academic demonstrations, usability evaluation, and controlled testing.</p>
+        </div>
+
+        <div class="experience-grid">
+          <article class="experience-card reveal">
+            <div class="experience-label">VR Mode</div>
+            <h3>Meta Quest 3</h3>
+            <p>Experience RumahKuVR immersively using a VR headset and motion controllers.</p>
+            <ul>
+              <li>Immersive household interaction</li>
+              <li>XR Interaction Toolkit</li>
+              <li>OpenXR workflow</li>
+            </ul>
+          </article>
+          <article class="experience-card reveal">
+            <div class="experience-label">Controller Mode</div>
+            <h3>Windows PC + Game Controller</h3>
+            <p>Play using a standard game controller for easier accessibility, demonstrations, and testing.</p>
+            <ul>
+              <li>Controller-friendly navigation</li>
+              <li>Accessible project demonstrations</li>
+              <li>Gameplay input locks while paused</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="availability-panel reveal">
+          <div>
+            <span>Current Build</span>
+            <strong>Academic / Demonstration Build</strong>
+          </div>
+          <div>
+            <span>Availability</span>
+            <strong>Available for supervised project demonstrations and testing.</strong>
+          </div>
+        </div>
+
+        <div class="experience-actions reveal">
+          <!-- Replace href values with your actual video, project document, or demo-request links when available. -->
+          <a class="btn btn-primary" href="#gameplay-video">Watch Gameplay Demo</a>
+          <a class="btn btn-secondary" href="#progress">View Project Details</a>
+          <a class="btn btn-secondary" href="#contact">Request a Demonstration</a>
+        </div>
+
+        <div class="future-build reveal">
+          <span>Optional Future Distribution</span>
+          <strong>Windows Build — Coming Later</strong>
+          <p>No public download file is currently provided.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-soft" id="technology">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Technology</p>
+          <h2>Technology stack</h2>
+        </div>
+        <div class="tech-badges reveal">
+          <span>Unity</span><span>C#</span><span>XR Interaction Toolkit</span><span>OpenXR</span><span>Meta Quest 3</span><span>Unity Input System</span><span>Local Data Storage</span><span>Rule-Based Expert System</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="progress">
+      <div class="container">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Project Progress</p>
+          <h2>Current development status</h2>
+          <p>No artificial completion percentages are used. The list below reflects the current project scope.</p>
+        </div>
+
+        <div class="progress-grid">
+          <article class="progress-card completed reveal">
+            <h3>Completed / Developed</h3>
+            <ul>
+              <li>Core login and registration</li>
+              <li>Role-based navigation</li>
+              <li>VR and Controller Modes</li>
+              <li>Easy Level interactive hazards</li>
+              <li>Safety scoring</li>
+              <li>Session records</li>
+              <li>Hazard map</li>
+              <li>Caregiver dashboard</li>
+              <li>Local data storage</li>
+              <li>Bahasa Melayu guidance framework</li>
+            </ul>
+          </article>
+          <article class="progress-card in-progress reveal">
+            <h3>In Progress</h3>
+            <ul>
+              <li>Medium and Hard hazard scenarios</li>
+              <li>AI-assisted recommendation refinement</li>
+              <li>Caregiver and administrator module completion</li>
+              <li>Meta Quest 3 testing</li>
+              <li>Usability evaluation</li>
+              <li>Audio and accessibility refinement</li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad section-deep" id="team">
+      <div class="container">
+        <div class="section-heading light reveal">
+          <p class="eyebrow">Project Team</p>
+          <h2>People behind RumahKuVR</h2>
+          <p>Replace the placeholders below with your actual project team information and profile images.</p>
+        </div>
+
+        <div class="team-grid">
+          <!-- Replace image paths, names, roles, and responsibilities below. -->
+          <article class="team-card reveal">
+            <div class="avatar-placeholder">PM</div>
+            <h3>Project Manager Name</h3>
+            <span>Project Manager</span>
+            <p>Project coordination, system planning, development oversight, and documentation.</p>
+          </article>
+          <article class="team-card reveal">
+            <div class="avatar-placeholder">TM</div>
+            <h3>Team Member Name</h3>
+            <span>Team Member</span>
+            <p>Unity development, user interface implementation, testing, and gameplay support.</p>
+          </article>
+          <article class="team-card reveal">
+            <div class="avatar-placeholder">SV</div>
+            <h3>Supervisor Name</h3>
+            <span>Project Supervisor</span>
+            <p>Academic supervision, project review, technical guidance, and evaluation support.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-pad" id="contact">
+      <div class="container contact-grid">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Contact / Demo Request</p>
+          <h2>Interested in viewing RumahKuVR?</h2>
+          <p>Use this form as a frontend demo-request interface. It does not submit data until you connect it to a backend, email service, or form platform.</p>
+          <div class="contact-note">
+            <!-- Replace the demo/contact links here with your real university email, portfolio link, or approved form service. -->
+            <strong>Demonstration availability</strong>
+            <span>Supervised academic demonstrations and project testing.</span>
+          </div>
+        </div>
+
+        <form class="contact-form reveal" id="demo-form" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+
+          <label for="organisation">Organisation</label>
+          <input id="organisation" name="organisation" type="text" autocomplete="organization">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+
+          <button class="btn btn-primary" type="submit">Request RumahKuVR Demo</button>
+          <p class="form-status" id="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark" aria-hidden="true">R</span>
+          <span class="brand-text"><strong>RumahKuVR</strong><small>AI-Assisted Virtual Reality Home Safety Application</small></span>
+        </a>
+        <p>Final Year Project • Virtual Reality Home Safety Training</p>
+      </div>
+      <nav aria-label="Footer navigation">
+        <a href="#about">About</a>
+        <a href="#features">Features</a>
+        <a href="#gameplay">Gameplay</a>
+        <a href="#experience">Experience</a>
+        <a href="#progress">Progress</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </footer>
+
+  <div class="modal" id="image-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title" hidden>
+    <button class="modal-close" type="button" aria-label="Close image viewer">×</button>
+    <div class="modal-content">
+      <img id="modal-image" src="" alt="">
+      <p id="modal-title"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
