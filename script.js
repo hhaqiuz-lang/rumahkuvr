@@ -1,3 +1,27 @@
+// Theme toggle (dark default, switches to light, persists via localStorage).
+const themeToggle = document.getElementById('theme-toggle');
+const THEME_KEY = 'rumahkuvr-theme';
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute('data-theme', theme);
+  if (themeToggle) {
+    const isLight = theme === 'light';
+    themeToggle.setAttribute('aria-pressed', String(isLight));
+    themeToggle.setAttribute('aria-label', isLight ? 'Switch to dark mode' : 'Switch to light mode');
+  }
+}
+
+const storedTheme = localStorage.getItem(THEME_KEY);
+if (storedTheme === 'light' || storedTheme === 'dark') {
+  applyTheme(storedTheme);
+}
+
+themeToggle?.addEventListener('click', () => {
+  const nextTheme = document.documentElement.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+  applyTheme(nextTheme);
+  localStorage.setItem(THEME_KEY, nextTheme);
+});
+
 // RumahKuVR portfolio interactions
 // Replace only the links/images/content marked in index.html. No external libraries are required.
 
